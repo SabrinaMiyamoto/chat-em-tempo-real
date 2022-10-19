@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(247, 241, 250);
+    color: rgb(1, 1, 2);
+}
+#chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+input{
+    width: 37.5rem;
+    border: 0.063rem solid rgb(123, 188, 241);
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+}
+
+.messages{
+    width: 37rem;
+    height: 25rem;
+    margin: 1.25rem 0;
+    border: 0.063rem solid rgb(123, 188, 241);
+    padding: 1.25rem;
+    background-color: rgb(242, 242, 242);
+}
+button{
+    width: 37.5rem;
+    height: 3.125rem;
+    font-size: 0.875rem;
+    background: rgb(177, 22, 197);
+    text-align: center;
+    line-height: 3.125rem;
+    font-weight: bold;
+    border: 0.063rem solid rgb(123, 188, 241);
+    color: #FFF;
+    margin-top: 0.625rem;
+}
+h1{
+    margin: 1rem;
+}
